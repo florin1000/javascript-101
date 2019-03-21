@@ -1,0 +1,23 @@
+P : Hello Toto, Today we will learn javascript!
+T : What is javascript?
+P : Well javsacript or JS is a programming langauge that allows you to empower web pages. 
+T : Sounds interesting but, I already know HTML and CSS, I can do a lot with only theese ones, do I realy need JS?
+P : It si true that you can build a web page without js, nowadays html5 and css3 have great capabilities and you can build beautiful interfaces but your page it won't be as awsome if you will use JS, basically javascript allow the user to interact more with the page., like when you click a button and the page loads a different content, everything is done by JS.
+T : Ok then but I already know Java is Javascript the little sister of Java?
+P : NO , Java is totaly different , and it has nothing to do with javascript, the naming it is an accident and it is the result of a bad marketing strategy, the authors thought it was a good ideea to make it somehow related to Java which was a big deal back in 1995. So we won't learn Java, we will take care of javascript only.  
+T : So , who owes javascript, how much do I have to pay to use it?
+P : JS ie free, doesn't belong to a person or an organization.
+T : Anyone can use it and modify it as he/she wish? This mean that we can have different versions of JS ?
+P : To be sure we are talking about the same language we will refer to ECMAScript aka Ecma International orgnization, as the official standard document of JS and we will have ECMAScript 4, ECMAScript 5 etc as versions of JS. The version 6 (ECMA script 2015)  was a major update and since then every year we have small changes. The trick is that even the language can have a lot o functionality it may not be all available to be used in production.
+T : Howcome? is it available or not?
+P : The trick here is that the main use of javascript is inside of browsers, like Chrome, Firefox etc. , and if the browsers didn't implement the JS feature you can write code that has the feature but the feature won't work. What you can do is to compile your feature rich javscript code into a javscript older version that can be understandable by all browsers, for this you can use Babel.
+T : So Babel is a must nowadays fi you want to write modern JS.
+P : Yes it is!
+T : I already know HTML and CSS, how can I do to use JS
+P : You just need to add js code to your page. JS code can be added in multiple ways:
+  a)Inline JS , usually in the <head></head> of your page you just need to add <script></script> as show bellow
+  b)external JS file
+  c)inline js, like when you want to add an event
+***maybe a scheme with the execution order 
+
+ 

@@ -1,0 +1,63 @@
+P : Hi Toto, today we will look into data types and values
+T : Sounds like a deal!
+P : First you have to imagine that computers need to have a sistem for organizing their imense number of information. To be able to 
+handle data JS have pieces of informations ordered in values and each value has a type and when you assign a value to a variable you aren't associate it with a type.
+T : What? type or values? how come ? how do I know which is which and where to use it?
+P : Js is a loosely typed or a dynamic language this means that when you declare a variable you don't need to specify the type of that variable, it will use the value to determine the type and later if you want to assign another value , let's say a string , to that variable that initial was assign a number value you can do it pretty straight forward , don't need to take care of variable type
+T : Very conveniant , less problems for me
+P : It is true, may look easy to use but there are also downsizes but we will talk in a future lesson about this, let's say that sometimes you may be disorientated and you can end up adding strings with numbers.
+T : So, let me guess we have strings and numbers in JS?
+P : Yes we do and not only, there are seven data types in JS, at least for now :) :
+  Boolean
+  Null
+  Undefined
+  Number
+ String
+ Symbol (new in ECMA 6)
+which are called primitives values
+and Object which is not a primitive value.
+T : primitives?
+P : Wait, I will get that in a second. Primitive is data that it can't be changed/altered like an Object can thru methods and functions.
+T : So if I have 
+var a = 2;
+...
+a = 5
+I changed the value from 2to 5, the value of a is 5, you said it can't be changed.
+P : You are confused, I understand, but you inthe example above you have just reassinged a new value to a variable but the existing value can't be changed as if it were an Object or array etc. We will talk more when we will reach Objects, for now just remember that all primitives are immutable at least in JS.
+#I saw that you already know about variables, in this lesson we 
+ Let's see some  examples : 
+
+ Boolean -> true ro falses
+ String -> "Toto"
+ Number -> 1,2,999999,Infinity
+ Null -> null
+Undefined -> undefined
+
+T : And Symbol type?
+P : Symbol type was introduced in ECMA 6 and it is  a special type, the use of it is used to make object properties anonymus. It is a niche case and we will talk more about it at Objects. You can easy check the type of a value using typeof method.
+ex: typeof 5 -> return "number";
+  typeof "abc" -> return "string";
+Let's talk a bit more about each type.
+1)Boolean type
+It is a logical entity and can be "false" or "true"
+2)Number
+As the name implies it is about numbers. All numbers are stored in 64 bit format , also know as double precision, and you can represent 2 to the power of 64 different numbers;
+ex:  1 ,2 ,  3.14
+There are some special numbers in JS, Infinity and -Infinity and theese can be obtain by divisibility with zero.
+5/0 -> infinity
+-5/0 -> -infinity
+
+typeof infintiy -> "number"
+typeof -infintiy -> "number"
+
+Other special number in JS is NaN; this is quite tricky, it's number that represent Not a number. You can get it like this:
+Math.acos(2)  -> NaN
+parseInt("Toto")  -> NaN
+
+
+3)Null -> express lack of identification, it is also a special case
+typeof Null will return Object-> is is a weird situation that is left like this due to it's historical ussage
+
+ 
+
+
